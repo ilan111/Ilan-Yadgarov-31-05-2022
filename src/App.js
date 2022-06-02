@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Navigation />
-      <MainPage />
       <FavoritesPage />
+      <MainPage />
     </div>
   );
 }
