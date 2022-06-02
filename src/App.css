@@ -1,4 +1,15 @@
-*{
-    text-align: center;
-    padding: 10px;
+.App {
+  /* background-repeat: no-repeat; */
+  text-align: center;
+}
+
+.App__bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+  height: 100vh;
 }
