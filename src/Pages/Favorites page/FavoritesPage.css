@@ -1,0 +1,11 @@
+.favoritesPage__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.favoritesPage__cards{
+    display: flex;
+    flex-direction: row;
+}
