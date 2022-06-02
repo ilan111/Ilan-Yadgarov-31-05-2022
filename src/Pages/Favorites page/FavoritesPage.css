@@ -1,11 +1,12 @@
-.favoritesPage__container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.favoritesPage__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
-.favoritesPage__cards{
-    display: flex;
-    flex-direction: row;
+.favoritesPage__cards {
+  display: flex;
+  flex-direction: row;
 }

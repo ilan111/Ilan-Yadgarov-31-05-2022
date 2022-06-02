@@ -1,6 +1,7 @@
-.mainPage__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
+.mainPage__container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  height: 80vh;
 }
