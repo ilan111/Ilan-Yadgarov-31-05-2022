@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainCard.css";
 
-function MainCard() {
+function MainCard({city, degrees,weather}) {
   const dummy_data = {
     city: "Tel Aviv",
     degrees: "38",
@@ -25,8 +25,8 @@ function MainCard() {
             <img src={dummy_data.image} alt="weather" />
           </div>
           <div className="card__cityWeather">
-            <p className="city">{dummy_data.city}</p>
-            <p className="degrees">{dummy_data.degrees}</p>
+            <p className="city">{city}</p>
+            <p className="degrees">{degrees}</p>
           </div>
         </div>
         <div className="card__favorites">
@@ -40,7 +40,7 @@ function MainCard() {
       </section>
 
       <section className="card__middle">
-        <p className="card__weatherText">{dummy_data.weather}</p>
+        <p className="card__weatherText">{weather}</p>
       </section>
 
       <section className="card__bottom">
